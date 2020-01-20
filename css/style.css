@@ -1,0 +1,148 @@
+    .esp {
+        margin-top: 50px;
+        margin-bottom: 40px;
+        max-width: 100%
+    }
+    
+    .esp1 {
+        max-width: 100%;
+    }
+    
+    #img-logo {
+        width: 170px;
+        height: 70px;
+        object-fit: contain;
+    }
+    
+    #img-footer {
+        width: 170px;
+        height: 70px;
+        object-fit: contain;
+    }
+    
+    nav {
+        font-size: 15px;
+        font-weight: bold;
+    }
+    
+    .nav-item {
+        margin-left: 17px;
+        text-transform: uppercase;
+    }
+    
+    .txt-1 {
+        background-color: #c13538;
+        color: white;
+        text-align: center;
+    }
+    
+    .txt-2 {
+        background-color: rgba(17, 15, 15, 0.74);
+        color: white;
+        text-align: center;
+    }
+    
+    h1 {
+        color: white;
+        margin-left: 50px;
+    }
+    
+    .txt-3 {
+        color: white;
+        margin-left: 50px;
+        margin-bottom: 25px;
+    }
+    
+    .btn {
+        background-color: #c13538;
+        border-color: #c13538;
+        margin-left: 50px;
+    }
+    
+    #img-1 {
+        width: 400px;
+        height: 250px;
+        border: 15px solid #c13538;
+        object-fit: cover;
+    }
+    
+    h2,
+    h3 {
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    #img-2 {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 150px;
+        height: 150px;
+    }
+    
+    .txt-4 {
+        text-align: center;
+    }
+    
+    .fundo {
+        background-image: url(../images/background.png);
+    }
+    
+    .box {
+        border-radius: 100%;
+        width: 300px;
+        height: 300px;
+        border: 2px solid #c13538;
+        border-left: none;
+        border-top: none;
+        text-align: center;
+        padding: 50px;
+        margin-left: 50px;
+        margin-bottom: 30px;
+    }
+    
+    .txt-5 {
+        text-align: center;
+    }
+    
+    .footer {
+        background-color: #231f20;
+        padding: 20px;
+    }
+    
+    .txt-foot {
+        color: white;
+        margin-top: 20px;
+    }
+    
+    .btn1 {
+        margin-top: 10px;
+        background-color: #c13538;
+        border-color: #c13538;
+    }
+    
+    @media(max-width: 415px) {
+        #img-1 {
+            width: 300px;
+            height: 150px;
+        }
+    }
+    
+    @media(max-width: 315px) {
+        #img-1 {
+            display: none;
+        }
+        .box {
+            padding: 0px;
+            margin: 0px;
+            font-size: 13px;
+            width: 250px;
+            height: 250px;
+        }
+    }
+    
+    @media(max-width: 368px) {
+        .box {
+            margin-left: 0px;
+        }
+    }
