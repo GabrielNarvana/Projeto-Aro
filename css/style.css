@@ -1,3 +1,7 @@
+    body{
+        overflow-x: hidden;
+    }
+    
     .esp {
         margin-top: 50px;
         margin-bottom: 40px;
